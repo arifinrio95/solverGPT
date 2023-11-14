@@ -36,9 +36,7 @@ def get_image_description(base64_image):
             "content": [
               {
                 "type": "text",
-                "text": """Jawab pertanyaan di gambar ini dengan penjelasannya. 
-                Usahakan untuk menjawab tanpa alat bantuan apapun, kamu harus memberikan jawaban. Jawab secara terstruktur, pelan-pelan saja.
-                Jawab semuanya dalam plain text."""
+                "text": """Convert soal tersebut ke dalam text sedetail mungkin. Lalu jawab dengan terstruktur dan benar beserta penjelasan lengkapnya. Jawab dengan urutan cara menjawab yang baik dan benar."""
               },
               {
                 "type": "image_url",
