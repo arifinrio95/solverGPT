@@ -37,8 +37,8 @@ def get_image_description(base64_image):
               {
                 "type": "text",
                 "text": """Jawab pertanyaan di gambar ini dengan penjelasannya. 
-                Jika tidak ada constrain, asumsikan saja. Usahakan untuk menjawab tanpa alat bantuan apapun, kamu pasti bisa. Jawab secara terstruktur, pelan-pelan saja.
-                Jawab semuanya dalam plain text, jangan ada simbol yang tidak bisa dishow dengan fungsi print di python."""
+                Usahakan untuk menjawab tanpa alat bantuan apapun, kamu harus memberikan jawaban. Jawab secara terstruktur, pelan-pelan saja.
+                Jawab semuanya dalam plain text."""
               },
               {
                 "type": "image_url",
