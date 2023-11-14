@@ -36,7 +36,7 @@ def get_image_description(base64_image):
             "content": [
               {
                 "type": "text",
-                "text": """Convert soal tersebut ke dalam text sedetail mungkin. Lalu jawab dengan terstruktur dan benar beserta penjelasan lengkapnya. Jawab dengan urutan cara menjawab yang baik dan benar."""
+                "text": """Tulis soal tersebut ke dalam text sedetail mungkin. Lalu jawab dengan terstruktur dan benar beserta penjelasan lengkapnya. Jawab dengan urutan cara menjawab yang baik dan benar."""
               },
               {
                 "type": "image_url",
